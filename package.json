@@ -1,6 +1,6 @@
 {
   "name": "strapi-plugin-prom-metrics",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "A Strapi plugin to add Prometheus metrics",
   "main": "index.js",
   "scripts": {
