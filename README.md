@@ -35,9 +35,18 @@ You would want to add
 ```javascript
 module.exports = {
   settings: {
-    "prom": {
-      "enabled": true,
-      "metricsPath": "/metrics",
+    prom: {
+      'enabled': true,
+      'metricsPath': '/metrics',
+      'name': 'http_request',
+      'help': 'HTTP request',
+      'labelNames': [
+        'service_name',
+        'http_method',
+        'endpoint',
+        'error_code',
+        'http_status_code',
+      ],
     },
   },
 };
@@ -52,9 +61,18 @@ If your `config/middleware.js` you can configure keys like this:
 module.exports = {
   settings: {
     "prom": {
-      "enabled": true,
-      "metricsPath": "/metrics",
-      "metricsPrefix": "foo"
+      'enabled': true,
+      'metricsPath': '/metrics',
+      'metricsPrefix': 'foo',
+      'name': 'http_request',
+      'help': 'HTTP request',
+      'labelNames': [
+        'service_name',
+        'http_method',
+        'endpoint',
+        'error_code',
+        'http_status_code',
+      ],
     },
   },
 };
