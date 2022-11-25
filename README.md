@@ -1,6 +1,5 @@
 # strapi-plugin-prom-metrics
-
-[![CircleCI](https://circleci.com/gh/luongnv1511/strapi-plugin-prom-metrics.svg?style=shield)](https://circleci.com/gh/luongnv1511/strapi-plugin-prom-metrics)[![npm version](https://badge.fury.io/js/strapi-plugin-prom-metrics.svg)](https://www.npmjs.com/package/strapi-plugin-prom-metrics)[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)[![Contributor Covenant](https://img.shields.io/badge/license-Hippocratic%20OSL%202.0-4baaaa)](https://firstdonoharm.dev/)
+[![npm version](https://badge.fury.io/js/strapi-plugin-prom-metrics.svg)](https://www.npmjs.com/package/strapi-plugin-prom-metrics)[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)[![Contributor Covenant](https://img.shields.io/badge/license-Hippocratic%20OSL%202.0-4baaaa)](https://firstdonoharm.dev/)
 
 Adds Prometheus metrics to a [Strapi](http://strapi.io/) instance using [prometheus-api-metrics](https://github.com/Zooz/prometheus-api-metrics).
 
