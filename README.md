@@ -1,5 +1,5 @@
-# strapi-plugin-prom-metrics
-[![npm version](https://badge.fury.io/js/strapi-plugin-prom-metrics.svg)](https://www.npmjs.com/package/strapi-plugin-prom-metrics)[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)[![Contributor Covenant](https://img.shields.io/badge/license-Hippocratic%20OSL%202.0-4baaaa)](https://firstdonoharm.dev/)
+# strapi-plugin-metrics-prometheus
+[![npm version](https://badge.fury.io/js/strapi-plugin-metrics-prometheus.svg)](https://www.npmjs.com/package/strapi-plugin-metrics-prometheus)[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)[![Contributor Covenant](https://img.shields.io/badge/license-Hippocratic%20OSL%202.0-4baaaa)](https://firstdonoharm.dev/)
 
 Adds Prometheus metrics to a [Strapi](http://strapi.io/) instance using [prometheus-api-metrics](https://github.com/Zooz/prometheus-api-metrics).
 
@@ -14,7 +14,7 @@ It's probably usable at this point.
 Use the package manager [npm](https://https://www.npmjs.com/) to install.
 
 ```bash
-npm i strapi-plugin-prom-metrics
+npm i strapi-plugin-metrics-prometheus
 ```
 
 ## Usage

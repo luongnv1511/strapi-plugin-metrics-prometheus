@@ -1,4 +1,4 @@
-Copyright 2020, strapi-plugin-prom-metrics developers
+Copyright 2020, strapi-plugin-metrics-prometheus developers
 
 Hippocratic License Version 2.0.  
 
