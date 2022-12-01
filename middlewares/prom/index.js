@@ -60,7 +60,7 @@ module.exports = (strapi) => {
               service_name: serviceName,
               http_method: method,
               endpoint: url,
-              error_code: res.statusCode < 400 ? 0 : res.statusCode,
+              error_code: ctx.response.status < 400 ? 0 : ctx.response.status,
               http_status_code: ctx.response.status,
             });
 
@@ -68,7 +68,7 @@ module.exports = (strapi) => {
               service_name: serviceName,
               http_method: method,
               endpoint: url,
-              error_code: res.statusCode < 400 ? 0 : res.statusCode,
+              error_code: ctx.response.status < 400 ? 0 : ctx.response.status,
               http_status_code: ctx.response.status,
             });
           });
