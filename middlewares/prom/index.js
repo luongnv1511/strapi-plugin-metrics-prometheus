@@ -55,7 +55,7 @@ module.exports = (strapi) => {
           const timer = histogram.startTimer();
           ctx.res.on("finish", () => {
             const { method, url } = ctx.request;
-            console.log(`trackMetrics ${method} ${url} ${ctx.response.status}`);
+            // console.log(`trackMetrics ${method} ${url} ${ctx.response.status}`);
             timer({
               service_name: serviceName,
               http_method: method,
